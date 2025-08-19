@@ -5,7 +5,6 @@ import os
 
 def env_setup():
     load_dotenv()
-    print(os.getenv("OPENAI_API_KEY"))
     os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
     os.environ["OPENAI_API_BASE"]=os.getenv("OPENAI_API_BASE")
     os.environ["OPENAI_MODEL_NAME"]=os.getenv("OPENAI_MODEL_NAME")
