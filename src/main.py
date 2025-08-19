@@ -5,8 +5,8 @@ import os
 
 def env_setup():
     load_dotenv()
-    os.environ["OPENAI_API_KEY"]=os.getenv("OPENROUTER_API_KEY")
-    os.environ["OPENROUTER_API_KEY"]=os.getenv("OPENROUTER_API_KEY")
+    print(os.getenv("OPENAI_API_KEY"))
+    os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
     os.environ["OPENAI_API_BASE"]=os.getenv("OPENAI_API_BASE")
     os.environ["OPENAI_MODEL_NAME"]=os.getenv("OPENAI_MODEL_NAME")
 
@@ -14,7 +14,7 @@ def load_llm():
     return ChatOpenAI(
         model=os.getenv("OPENAI_MODEL_NAME"),
         base_url=os.getenv("OPENAI_API_BASE"),
-        api_key=os.getenv("OPENROUTER_API_KEY"),
+        api_key=os.getenv("OPENAI_API_KEY"),
         temperature=0
     )
 if __name__ == "__main__":
