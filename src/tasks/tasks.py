@@ -1,0 +1,49 @@
+from crewai import Task
+from ..agents.agents import agents
+from src.tools import AllExtractedProducts,ResultQueires,AllSearchResults
+import yaml
+import os
+
+
+class tasks:
+    global no_keywords
+    def __init__(self,llm):
+        self.Agents = agents(llm=llm)
+        CONFIG_PATH = os.path.join(os.getcwd(),"src","config")
+        TASKS_CONFIG_PATH = os.path.join(CONFIG_PATH,"tasks.yaml")
+        os.makedirs("ai-agent-data",exist_ok=True)
+        with open(TASKS_CONFIG_PATH,"r") as f:
+            self.tasks_conf = yaml.safe_load(f)
+
+   
+    def task_A(self):
+          return Task(
+                description=self.tasks_conf["task_A"]["description"],
+                expected_output=self.tasks_conf["task_A"]["expected_output"],
+                output_file=os.path.join(os.getcwd(),"ai-agent-data","step1.json"),
+                output_json=ResultQueires,
+                agent=self.Agents.agent_A()
+          )
+    def task_B(self):
+          return Task(
+                description=self.tasks_conf["task_B"]["description"],
+                expected_output=self.tasks_conf["task_B"]["expected_output"],
+                output_file=os.path.join(os.getcwd(),"ai-agent-data","step2.json"),
+                output_json=AllSearchResults,
+                agent=self.Agents.agent_B()
+          )
+    def task_C(self):
+          return Task(
+                description=self.tasks_conf["task_C"]["description"],
+                expected_output=self.tasks_conf["task_C"]["expected_output"],
+                output_file=os.path.join(os.getcwd(),"ai-agent-data","step3.json"),
+                output_json=AllExtractedProducts,
+                agent=self.Agents.agent_C()
+          )
+    def task_D(self):
+          return Task(
+                description=self.tasks_conf["task_D"]["description"],
+                expected_output=self.tasks_conf["task_D"]["expected_output"],
+                output_file=os.path.join(os.getcwd(),"ai-agent-data","FinalReport.html"),
+                agent=self.Agents.agent_D()
+          )

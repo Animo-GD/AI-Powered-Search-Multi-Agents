@@ -19,4 +19,4 @@ def load_llm():
 if __name__ == "__main__":
     env_setup()
     base_llm = load_llm()
-    print(base_llm.invoke(["Once upon a time"]))
+    print(base_llm.invoke(["Once upon a time"]).content)

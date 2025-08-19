@@ -1,30 +1,52 @@
 from crewai import Agent
 from crewai.tools import tool
-from scrapegraph_py import Client
-from tavily import TavilyClient
 from dotenv import load_dotenv
 import os
 import yaml
+from src.tools import scraper_tool,search_engine_tool
 
 class agents:
-    def __init__(self):
+    def __init__(self,llm):
         load_dotenv()
         CONFIG_PATH = os.path.join(os.getcwd(),"src","config")
         AGENTS_CONFIG_PATH = os.path.join(CONFIG_PATH,"agents.yaml")
         with open(AGENTS_CONFIG_PATH,"r") as f:
             self.agents_conf = yaml.safe_load(f)
-        self.tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
-        self.scraper = Client(api_key=os.getenv("SCRAPE_API_KEY"))
+        self.llm = llm
 
-    def agent_A():
-        return Agent()
+    
+    
+    def agent_A(self):
+        return Agent(
+            role=self.agents_conf["agent_A"]["role"],
+            goal=self.agents_conf["agent_A"]["goal"],
+            backstory=self.agents_conf["agent_A"]["backstory"],
+            llm=self.llm
+        )
 
-    def agent_B():
-        return Agent()
+    def agent_B(self):
+        return Agent(
+            role=self.agents_conf["agent_B"]["role"],
+            goal=self.agents_conf["agent_B"]["goal"],
+            backstory=self.agents_conf["agent_B"]["backstory"],
+            llm=self.llm,
+            tools=[self.search_engine_tool]
+        )
 
-    def agent_C():
-        return Agent()
+    def agent_C(self):
+        return Agent(
+            role=self.agents_conf["agent_C"]["role"],
+            goal=self.agents_conf["agent_C"]["goal"],
+            backstory=self.agents_conf["agent_C"]["backstory"],
+            llm=self.llm,
+            tools=[self.scraper_tool]
+        )
 
-    def agent_D():
-        return Agent()
+    def agent_D(self):
+        return Agent(
+            role=self.agents_conf["agent_C"]["role"],
+            goal=self.agents_conf["agent_C"]["goal"],
+            backstory=self.agents_conf["agent_C"]["backstory"],
+            llm=self.llm
+        )
     
