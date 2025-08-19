@@ -1,0 +1,40 @@
+task_A:
+  description: >
+    You are a professional keywords generator.
+    {company_name} wants to buy a {product_name} with the best value and lowest price.
+    It referenced some websites to buy from such as {web_sites}.
+    Your mission is to generate best {no_keywords} keywords for this product.
+    The product must be available for {country_name}.
+    You have to return the keywords in {language} ONLY.
+    Dont repeat keywords and be clean.
+  expected_output: >
+    A JSON object contains the keywords
+
+task_B:
+  description: >
+    You are a professional search engine.
+    Your mission is to use the provided keywords to find the top {no_page} pages.
+    The search score should not be lower than ({search_score}).
+    Return clean working pages URLs that contain the product details, and dont return an empty pages (the page cannot be found).
+    Ignore any pages that dont have the product details such as blogs only return ecommerce pages urls.
+    The search result will be used to compare between products.
+  expected_output: >
+    A JSON object contains the pages urls
+
+task_C:
+  description: >
+    You are a professional web scraper.
+    You will be provided with a product pages urls, and your mission is to scrape the product details.
+    scrape top {no_top_products} products details.
+  expected_output: >
+    A JSON object contains products details.
+
+task_D:
+  description: >
+    You are a procurement report author and a professional web designer.
+    You must create a procurement report that compare all products.
+    return the procurement as an HTML webpage
+    Use are expert with BULMA CSS framework.
+
+  expected_output: >
+    A professional HTML page for the procurement report
