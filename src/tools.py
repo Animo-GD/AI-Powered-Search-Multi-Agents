@@ -1,30 +1,33 @@
 from pydantic import BaseModel,Field
-from typing import List
+from typing import List,Optional
 from crewai.tools import tool
 from scrapegraph_py import Client
 from tavily import TavilyClient
 no_keywords = 10
 import os
 from dotenv import load_dotenv
-load_dotenv()
-search_client= TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
-scraper = Client(api_key=os.getenv("SCRAPE_API_KEY"))
 
-class SignleSearchResult(BaseModel):
-    title: str
-    url: str = Field(..., title="the page url")
-    content: str
-    score: float
-    search_query: str
 
-class AllSearchResults(BaseModel):
-    results: List[SignleSearchResult]
 class ResultQueires(BaseModel):
         queries:List[str] = Field(
             ...,
             description="Queries that will be passed to the search enigne",
             min_items=1,maxitems=no_keywords
             )
+        
+
+class SignleSearchResult(BaseModel):
+    title : Optional[str]
+    url: str = Field(..., title="the page url")
+    content: str
+    score: float
+    search_query:str
+
+class AllSearchResults(BaseModel):
+    results: List[SignleSearchResult]
+
+
+
 class ProductSpec(BaseModel):
         specification_name: str
         specification_value: str
@@ -47,18 +50,30 @@ class AllExtractedProducts(BaseModel):
         products: List[SingleExtractedProduct]
 
 @tool
-def search_engine_tool(self,query:str):
-        """This tool is used to search a provided query and return the search result"""
-        return self.search_client.search(query=query)
+def search_engine_tool(query:str):
+        """Useful for search-based queries. Use this to find current information about any query related pages using a search engine"""
+        load_dotenv()
+        search_client= TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
+        return search_client.search(query=query)
     
+
 @tool
-def scraper_tool(self,page_url:str):
-        """This tool is used for scraping a given page url, and extract details from it"""
-        details = self.scraper.smartscraper(
+def scraper_tool(page_url:str):
+        """
+        An AI Tool to help an agent to scrape a web page
+
+         Example:
+                web_scraping_tool(
+                  page_url="https://www.noon.com/egypt-en/search/?q=espresso%20machine"
+                 )
+         """
+        load_dotenv()
+        scraper = Client(api_key=os.getenv("SCRAPE_API_KEY"))
+        details = scraper.smartscraper(
               website_url=page_url,
               user_prompt="Extract ```json\n"+SingleExtractedProduct.schema_json()+"```\n from the provided web page"
         )
         return {
               "page_url":page_url,
               "details":details
-}
+        }

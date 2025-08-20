@@ -1,32 +1,32 @@
 agent_A:
   role: >
-    Search keywords generator
+    Search Queries Recommendation Agent
   goal: >
-    Generate search keywords for a specific product
+    To provide a list of suggested search queries to be passed to the search engine.
+    The queries must be varied and specific to the requested items.
   backstory: >
-    You are a skilled keywords generator designed to help in finding best keywords for a product with the best value.
-
+    The agent helps generate targeted search queries for product searches based on the provided context.
 agent_B:
   role: >
-    Search Engine
+    Search Engine Agent
   goal: >
-    Use the provided keywords to find the top search pages url
+    To search for products based on the suggested search query
   backstory: >
-    This agent designed to work as a smart search engine that search for the top best pages for the provided keywords
+    The agent is designed to help in looking for products by searching for products based on the suggested search queries.
 
 agent_C:
   role: >
-    Web page scraper
+    Web scraping agent
   goal: >
-    Scrape the product details from the provided pages URLs
+    To extract details from any website
   backstory:
-    You are a professional webscraper designed to webscrape product details from the provided product page URL.
+    The agent is designed to assist in generating a professional HTML page for the procurement report after looking into a list of products. product to buy.
 
 agent_D:
   role: >
-    Procurement report author.
+    Procurement Report Author Agent.
   goal: >
-    Generate a procurement report of the products details and product comparison.
+    To generate a professional HTML page for the procurement report
   backstory: >
-    This agent is designed to generate procurement report and visualize it as a HTML page.
+    The agent is designed to assist in generating a professional HTML page for the procurement report after looking into a list of products.
 

@@ -1,0 +1,172 @@
+{
+  "products": [
+    {
+      "page_url": "https://www.amazon.eg/-/en/Nespresso-Vertuo-Limited-Machine-Magimix/dp/B09R8296S9",
+      "product_title": "Nespresso Vertuo Plus Limited Edition Pod Coffee Machine by Magimix, FRANCE",
+      "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/81E9xU4SXKL._AC_SL1500_.jpg",
+      "product_url": "https://www.amazon.eg/-/en/Nespresso-Vertuo-Limited-Machine-Magimix/dp/B09R8296S9",
+      "product_current_price": 15500.0,
+      "product_original_price": 17000.0,
+      "product_discount_percentage": 8.82,
+      "product_specs": [
+        {
+          "specification_name": "Model",
+          "specification_value": "Vertuo Plus"
+        },
+        {
+          "specification_name": "Brand",
+          "specification_value": "Nespresso/Magimix"
+        },
+        {
+          "specification_name": "Country",
+          "specification_value": "France"
+        }
+      ],
+      "agent_recommendation_rank": 1,
+      "agent_recommendation_notes": [
+        "High user rating",
+        "Official brand and model"
+      ]
+    },
+    {
+      "page_url": "https://www.ubuy.com.eg/en/product/R4S33JEW-nespresso-vertuo-next-coffee-and-espresso-machine-new-by-breville-black-matte-single-serve-coffee-es",
+      "product_title": "Nespresso VertuoPlus Coffee and Espresso Machine",
+      "product_image_url": "https://images.ubuy.com.eg/images/products/134636/00/00/00/07/72/70/79/7/134636.jpg",
+      "product_url": "https://www.ubuy.com.eg/en/product/R4S33JEW-nespresso-vertuo-next-coffee-and-espresso-machine-new-by-breville-black-matte-single-serve-coffee-es",
+      "product_current_price": 15500.0,
+      "product_original_price": null,
+      "product_discount_percentage": 0.0,
+      "product_specs": [
+        {
+          "specification_name": "Cup Sizes",
+          "specification_value": "3"
+        },
+        {
+          "specification_name": "Brand",
+          "specification_value": "Breville"
+        },
+        {
+          "specification_name": "Color",
+          "specification_value": "Black Matte"
+        }
+      ],
+      "agent_recommendation_rank": 2,
+      "agent_recommendation_notes": [
+        "Versatile cup sizes",
+        "Popular model"
+      ]
+    },
+    {
+      "page_url": "https://www.amazon.eg/-/en/Coffee-Tea-Espresso-nespresso-Kitchen-Dining/s?rh=n%3A21863852031%2Cp_89%3Anespresso&page=3",
+      "product_title": "Nespresso vertuo next titan coffee machine",
+      "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/61tMG5cOoIL._AC_SL1500_.jpg",
+      "product_url": "https://www.amazon.eg/-/en/Coffee-Tea-Espresso-nespresso-Kitchen-Dining/s?rh=n%3A21863852031%2Cp_89%3Anespresso&page=3",
+      "product_current_price": 15500.0,
+      "product_original_price": null,
+      "product_discount_percentage": 0.0,
+      "product_specs": [
+        {
+          "specification_name": "Machine Type",
+          "specification_value": "Coffee Machine"
+        },
+        {
+          "specification_name": "Model",
+          "specification_value": "Vertuo Next Titan"
+        },
+        {
+          "specification_name": "Price",
+          "specification_value": "EGP 15,500"
+        }
+      ],
+      "agent_recommendation_rank": 3,
+      "agent_recommendation_notes": [
+        "Affordable and compact",
+        "High customer ratings"
+      ]
+    },
+    {
+      "page_url": "https://www.amazon.com/Nespresso-VertuoPlus-Espresso-DeLonghi-Aeroccino/dp/B01N1QSB6J",
+      "product_title": "Nespresso VertuoPlus Deluxe Coffee and Espresso Machine by DeLonghi",
+      "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/81dPvL-u1WL._AC_SL1500_.jpg",
+      "product_url": "https://www.amazon.com/Nespresso-VertuoPlus-Espresso-DeLonghi-Aeroccino/dp/B01N1QSB6J",
+      "product_current_price": 13000.0,
+      "product_original_price": 14200.0,
+      "product_discount_percentage": 8.45,
+      "product_specs": [
+        {
+          "specification_name": "Capacity",
+          "specification_value": "Single-serve"
+        },
+        {
+          "specification_name": "Features",
+          "specification_value": "Milk Frother"
+        },
+        {
+          "specification_name": "Color",
+          "specification_value": "Black"
+        }
+      ],
+      "agent_recommendation_rank": 4,
+      "agent_recommendation_notes": [
+        "Includes milk frother",
+        "Good user rating"
+      ]
+    },
+    {
+      "page_url": "https://www.amazon.com/Nespresso-VertuoPlus-Espresso-DeLonghi-Aeroccino/dp/B01N1QSB6J",
+      "product_title": "Nespresso VertuoPlus Deluxe Coffee and Espresso Machine by DeLonghi",
+      "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/81dPvL-u1WL._AC_SL1500_.jpg",
+      "product_url": "https://www.amazon.com/Nespresso-VertuoPlus-Espresso-DeLonghi-Aeroccino/dp/B01N1QSB6J",
+      "product_current_price": 13000.0,
+      "product_original_price": 14200.0,
+      "product_discount_percentage": 8.45,
+      "product_specs": [
+        {
+          "specification_name": "Capacity",
+          "specification_value": "3.8 pounds"
+        },
+        {
+          "specification_name": "Color",
+          "specification_value": "Black"
+        },
+        {
+          "specification_name": "Features",
+          "specification_value": "Milk Frother"
+        }
+      ],
+      "agent_recommendation_rank": 5,
+      "agent_recommendation_notes": [
+        "Includes milk frother",
+        "Widely favored"
+      ]
+    },
+    {
+      "page_url": "https://www.ubuy.com.eg/en/product/3K8AR7K-gaggia-ri9380-49-classic-pro-espresso-machine-thunder-black?srsltid=AfmBOorQiJ-BzJ3vCBc4uCp7qmWMvq0nWGEQU3EDW8ykt_4534LxcG5u",
+      "product_title": "Gaggia Classic Evo Pro Espresso Machine Egypt",
+      "product_image_url": "https://images.ubuy.com.eg/images/products/134636/00/00/00/07/72/70/79/7/134636.jpg",
+      "product_url": "https://www.ubuy.com.eg/en/product/3K8AR7K-gaggia-ri9380-49-classic-pro-espresso-machine-thunder-black?srsltid=AfmBOorQiJ-BzJ3vCBc4uCp7qmWMvq0nWGEQU3EDW8ykt_4534LxcG5u",
+      "product_current_price": 14500.0,
+      "product_original_price": null,
+      "product_discount_percentage": 0.0,
+      "product_specs": [
+        {
+          "specification_name": "Brand",
+          "specification_value": "Gaggia"
+        },
+        {
+          "specification_name": "Type",
+          "specification_value": "Pro Espresso Machine"
+        },
+        {
+          "specification_name": "Color",
+          "specification_value": "Thunder Black"
+        }
+      ],
+      "agent_recommendation_rank": 6,
+      "agent_recommendation_notes": [
+        "Professional-grade espresso",
+        "High durability"
+      ]
+    }
+  ]
+}

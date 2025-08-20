@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "page_url": "https://sigma-computer.com/en/item?id=9f4a44b5-ad60-49bf-9bb2-f079c301fb25",
+      "product_title": "Manli GeForce GTX 1050 Ti NVIDIA 4GB GDDR5 Graphics Card",
+      "product_image_url": "",
+      "product_url": "https://sigma-computer.com/en/item?id=9f4a44b5-ad60-49bf-9bb2-f079c301fb25",
+      "product_current_price": 4250,
+      "product_original_price": null,
+      "product_discount_percentage": 14,
+      "product_specs": [],
+      "agent_recommendation_rank": 1,
+      "agent_recommendation_notes": [
+        "Top available product based on search relevance."
+      ]
+    },
+    {
+      "page_url": "https://sigma-computer.com/item?id=765&name=GIGABYTE_GeForce%C2%AE_GTX_1050_Ti_OC_4G",
+      "product_title": "GIGABYTE GeForce® GTX 1050 Ti OC 4G",
+      "product_image_url": "",
+      "product_url": "https://sigma-computer.com/item?id=765&name=GIGABYTE_GeForce%C2%AE_GTX_1050_Ti_OC_4G",
+      "product_current_price": 6000,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [],
+      "agent_recommendation_rank": 2,
+      "agent_recommendation_notes": [
+        "Out of stock, but indicates the product model and price."
+      ]
+    },
+    {
+      "page_url": "https://sigma-computer.com/en/item?id=manli-geforce-gtx-1050-ti-nvidia-4gb-gddr5-graphics-card-hcyawatioth4",
+      "product_title": "Manli GeForce GTX 1050 Ti NVIDIA 4GB GDDR5 Graphics Card",
+      "product_image_url": "",
+      "product_url": "https://sigma-computer.com/en/item?id=manli-geforce-gtx-1050-ti-nvidia-4gb-gddr5-graphics-card-hcyawatioth4",
+      "product_current_price": 4250,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [],
+      "agent_recommendation_rank": 3,
+      "agent_recommendation_notes": [
+        "Same product as first listed, out of stock."
+      ]
+    },
+    {
+      "page_url": "https://sigma-computer.com/en/item?id=176",
+      "product_title": "GIGABYTE GeForce GTX 1050 Ti D5 4GB",
+      "product_image_url": "",
+      "product_url": "https://sigma-computer.com/en/item?id=176",
+      "product_current_price": 4299,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [],
+      "agent_recommendation_rank": 4,
+      "agent_recommendation_notes": [
+        "Out of stock, but relevant product details provided."
+      ]
+    },
+    {
+      "page_url": "https://sigma-computer.com/en/item?id=3096",
+      "product_title": "ASUS Cerberus GeForce® GTX 1050 Ti OC Edition 4GB GDDR5",
+      "product_image_url": "",
+      "product_url": "https://sigma-computer.com/en/item?id=3096",
+      "product_current_price": 4499,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [],
+      "agent_recommendation_rank": 5,
+      "agent_recommendation_notes": [
+        "Out of stock, but indicates product specs and price."
+      ]
+    }
+  ]
+}
