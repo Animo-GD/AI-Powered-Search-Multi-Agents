@@ -1,9 +1,7 @@
 import gradio as gr
 from dotenv import load_dotenv
-import agentops
 from crew import crew
 import os
-from llm_manager.BasicModel import BasicModel
 
 os.chdir(os.path.join(os.getcwd(), "src"))
 
