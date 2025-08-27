@@ -37,4 +37,24 @@ It automates product procurement reporting by chaining multiple AI agents that:
 - You will find your final report in `src/data/finalReport.html`
 - [View report online](https://aqua-aarika-39.tiiny.site/)
 
+--------
+# Setup
+### Create Virtual Environment
+```bash
+python -m venv .venv
+./.venv/Scripts/activate
+```
+### Install Requirements
+```bash
+(.venv) pip install -r requirements.txt
+```
+### Run The App
+```bash
+python src/app.py
+```
+### Insert Your Credential
+1. (Open Router API)[https://openrouter.ai/]
+2. (Tavily API)[https://www.tavily.com/]
+3. (ScrapeGraph API)[https://scrapegraphai.com/]
+
 
