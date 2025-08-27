@@ -12,4 +12,4 @@ It automates product procurement reporting by chaining multiple AI agents that:
 
 4. Generate an HTML procurement report.
 
-!(Digram)[Agents Diagram.png]
+![Digram](Agents Diagram.png)
