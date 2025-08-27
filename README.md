@@ -18,3 +18,5 @@ It automates product procurement reporting by chaining multiple AI agents that:
 -------
 # User Interface
 
+![userInterface](UI-page.png)
+
