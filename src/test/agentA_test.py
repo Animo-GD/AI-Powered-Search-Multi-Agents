@@ -4,13 +4,9 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from agents.agents import agents
 from tasks.tasks import tasks
-from llm_manager.BasicModel import BasicModel
 
 
 
-
-llm1 = BasicModel().get_llm()
-llm2 = BasicModel().get_llm()
 
 
 test1_crew = Crew(

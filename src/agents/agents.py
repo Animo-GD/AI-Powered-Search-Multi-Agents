@@ -1,5 +1,4 @@
 from crewai import Agent
-from crewai.tools import tool
 from dotenv import load_dotenv
 import os
 import sys
@@ -10,12 +9,12 @@ from llm_manager.BasicModel import BasicModel
 class agents:
     def __init__(self):
         load_dotenv()
-        CONFIG_PATH = os.path.join(os.getcwd(),"src","config")
+        CONFIG_PATH = os.path.join(os.getcwd(),"config")
         AGENTS_CONFIG_PATH = os.path.join(CONFIG_PATH,"agents.yaml")
         with open(AGENTS_CONFIG_PATH,"r") as f:
             self.agents_conf = yaml.safe_load(f)
-        self.llm = BasicModel().get_llm()
-        self.gptoss = BasicModel().get_free_llm()
+        self.mistral = BasicModel().get_mistral()
+        self.gptoss = BasicModel().get_gptoss()
         print("role:",self.agents_conf["agent_A"]["role"])
         print("goal:",self.agents_conf["agent_A"]["goal"])
         print("backstory:",self.agents_conf["agent_A"]["backstory"])
@@ -35,8 +34,8 @@ class agents:
             role=self.agents_conf["agent_B"]["role"],
             goal=self.agents_conf["agent_B"]["goal"],
             backstory=self.agents_conf["agent_B"]["backstory"],
-            llm=self.llm,
-            tools=[search_engine_tool],
+            llm=self.mistral,
+            tools=[search_engine_tool]
         )
 
     def agent_C(self):
@@ -44,7 +43,7 @@ class agents:
             role=self.agents_conf["agent_C"]["role"],
             goal=self.agents_conf["agent_C"]["goal"],
             backstory=self.agents_conf["agent_C"]["backstory"],
-            llm=self.llm,
+            llm=self.mistral,
             tools=[scraper_tool]
         )
 

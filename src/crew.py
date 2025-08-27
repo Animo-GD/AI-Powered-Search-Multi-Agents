@@ -4,7 +4,7 @@ from crewai import Process,Crew
 from crewai.knowledge.source.string_knowledge_source import StringKnowledgeSource
 
 class crew:
-    def __init__(self,llm,about_company:str):
+    def __init__(self,about_company:str):
         self.company_context = StringKnowledgeSource(content=about_company)
         Agents = agents()
         Tasks = tasks()

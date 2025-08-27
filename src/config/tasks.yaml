@@ -32,11 +32,11 @@ task_C:
 
 task_D:
   description: >
-    The task is to generate a professional HTML page for the procurement report.
-    You have to use Bootstrap CSS framework for a better UI.
-    Use the provided context about the company to make a specialized report.
-    The report will include the search results and prices of products from different websites.
-    The report should be structured with the following sections:
+    - The task is to generate a professional HTML page for the procurement report.
+    - You have to use Bootstrap CSS framework for a better UI.
+    - Use the provided context about the company to make a specialized report.
+    - The report will include the search results and prices of products from different websites.
+    - The report should be structured with the following sections:
         1. Executive Summary: A brief overview of the procurement process and key findings.
         2. Introduction: An introduction to the purpose and scope of the report.
         3. Methodology: A description of the methods used to gather and compare prices.
@@ -45,6 +45,9 @@ task_D:
         6. Recommendations: Suggestions for procurement based on the analysis.
         7. Conclusion: A summary of the report and final thoughts.
         8. Appendices: Any additional information, such as raw data or supplementary materials.
+    - Give me only raw HTML. Do not use Markdown, do not wrap the code in triple backticks.
+    - Do not include markdown fences like ```html or ```.
+    - Do not wirte any introductions or conclusion.
 
   expected_output: >
-    A professional HTML page for the procurement report
+    A professional HTML Page for the procurement report.

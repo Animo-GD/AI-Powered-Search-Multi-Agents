@@ -7,7 +7,7 @@ class tasks:
     global no_keywords
     def __init__(self):
         self.Agents = agents()
-        CONFIG_PATH = os.path.join(os.getcwd(),"src","config")
+        CONFIG_PATH = os.path.join(os.getcwd(),"config")
         TASKS_CONFIG_PATH = os.path.join(CONFIG_PATH,"tasks.yaml")
         os.makedirs("data",exist_ok=True)
         with open(TASKS_CONFIG_PATH,"r") as f:

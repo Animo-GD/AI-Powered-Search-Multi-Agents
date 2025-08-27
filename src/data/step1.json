@@ -1,5 +1,9 @@
 {
   "queries": [
-    "site:sigma-computer.com \"GTX 1050 Ti\" 4GB"
+    "site:amazon.com Nvidia GTX 1080 Egypt",
+    "site:sigma-computer.com Nvidia GTX 1660 Super Egypt",
+    "site:ahw.com Nvidia GTX 1070 Egypt",
+    "site:amazon.com Nvidia GTX 1080 Ti Egypt",
+    "site:sigma-computer.com Nvidia GTX 1650 Super Egypt"
   ]
 }

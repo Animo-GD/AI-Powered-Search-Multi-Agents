@@ -1,73 +1,95 @@
 {
   "products": [
     {
-      "page_url": "https://sigma-computer.com/en/item?id=9f4a44b5-ad60-49bf-9bb2-f079c301fb25",
-      "product_title": "Manli GeForce GTX 1050 Ti NVIDIA 4GB GDDR5 Graphics Card",
-      "product_image_url": "",
-      "product_url": "https://sigma-computer.com/en/item?id=9f4a44b5-ad60-49bf-9bb2-f079c301fb25",
-      "product_current_price": 4250,
-      "product_original_price": null,
-      "product_discount_percentage": 14,
-      "product_specs": [],
-      "agent_recommendation_rank": 1,
-      "agent_recommendation_notes": [
-        "Top available product based on search relevance."
-      ]
-    },
-    {
-      "page_url": "https://sigma-computer.com/item?id=765&name=GIGABYTE_GeForce%C2%AE_GTX_1050_Ti_OC_4G",
-      "product_title": "GIGABYTE GeForce® GTX 1050 Ti OC 4G",
-      "product_image_url": "",
-      "product_url": "https://sigma-computer.com/item?id=765&name=GIGABYTE_GeForce%C2%AE_GTX_1050_Ti_OC_4G",
-      "product_current_price": 6000,
-      "product_original_price": null,
-      "product_discount_percentage": null,
-      "product_specs": [],
-      "agent_recommendation_rank": 2,
-      "agent_recommendation_notes": [
-        "Out of stock, but indicates the product model and price."
-      ]
-    },
-    {
-      "page_url": "https://sigma-computer.com/en/item?id=manli-geforce-gtx-1050-ti-nvidia-4gb-gddr5-graphics-card-hcyawatioth4",
-      "product_title": "Manli GeForce GTX 1050 Ti NVIDIA 4GB GDDR5 Graphics Card",
-      "product_image_url": "",
-      "product_url": "https://sigma-computer.com/en/item?id=manli-geforce-gtx-1050-ti-nvidia-4gb-gddr5-graphics-card-hcyawatioth4",
-      "product_current_price": 4250,
-      "product_original_price": null,
-      "product_discount_percentage": null,
-      "product_specs": [],
-      "agent_recommendation_rank": 3,
-      "agent_recommendation_notes": [
-        "Same product as first listed, out of stock."
-      ]
-    },
-    {
-      "page_url": "https://sigma-computer.com/en/item?id=176",
-      "product_title": "GIGABYTE GeForce GTX 1050 Ti D5 4GB",
-      "product_image_url": "",
-      "product_url": "https://sigma-computer.com/en/item?id=176",
-      "product_current_price": 4299,
-      "product_original_price": null,
-      "product_discount_percentage": null,
-      "product_specs": [],
-      "agent_recommendation_rank": 4,
-      "agent_recommendation_notes": [
-        "Out of stock, but relevant product details provided."
-      ]
-    },
-    {
-      "page_url": "https://sigma-computer.com/en/item?id=3096",
-      "product_title": "ASUS Cerberus GeForce® GTX 1050 Ti OC Edition 4GB GDDR5",
-      "product_image_url": "",
-      "product_url": "https://sigma-computer.com/en/item?id=3096",
-      "product_current_price": 4499,
-      "product_original_price": null,
-      "product_discount_percentage": null,
-      "product_specs": [],
+      "page_url": "https://www.sigma-computer.com/item?id=1131",
+      "product_title": "Gigabyte GeForce® GTX 1660 SUPER™ OC 6G",
+      "product_image_url": "https://www.sigma-computer.com/_next/image?url=http%3A%2F%2Fapi.sigma-computer.com%2Fmedia%2F4462b233-3092-49a6-a429-6288a408ced7&w=3840&q=75",
+      "product_url": "https://www.sigma-computer.com/",
+      "product_current_price": 7799.0,
+      "product_original_price": 9800.0,
+      "product_discount_percentage": 20.0,
+      "product_specs": [
+        {
+          "specification_name": "Brand",
+          "specification_value": "Gigabyte"
+        },
+        {
+          "specification_name": "Model",
+          "specification_value": "GeForce® GTX 1660 SUPER™ OC 6G"
+        }
+      ],
       "agent_recommendation_rank": 5,
       "agent_recommendation_notes": [
-        "Out of stock, but indicates product specs and price."
+        "High-performance graphics card",
+        "Good price point"
+      ]
+    },
+    {
+      "page_url": "https://sigma-computer.com/en/item?id=1054",
+      "product_title": "ZOTAC GAMING GeForce GTX 1660 SUPER AMP",
+      "product_image_url": "https://sigma-computer.com/_next/image?url=http%3A%2F%2Fapi.sigma-computer.com%2Fmedia%2F8664788b-7fa3-482e-b491-7b97205f05b1&w=3840&q=75",
+      "product_url": "https://sigma-computer.com/",
+      "product_current_price": 9500.0,
+      "product_original_price": 10500.0,
+      "product_discount_percentage": 9.0,
+      "product_specs": [
+        {
+          "specification_name": "Brand",
+          "specification_value": "ZOTAC"
+        }
+      ],
+      "agent_recommendation_rank": 5,
+      "agent_recommendation_notes": [
+        "The product has a high discount percentage",
+        "The product is from a well-known brand"
+      ]
+    },
+    {
+      "page_url": "https://www.sigma-computer.com/en/item?id=2818",
+      "product_title": "PALIT GeForce® GTX 1660 SUPER GAMING PRO OC 6G-DDR6",
+      "product_image_url": "https://www.sigma-computer.com/_next/image?url=http%3A%2F%2Fapi.sigma-computer.com%2Fmedia%2F9c2bbcdc-baf4-41b0-9162-59c1eecba66b&w=3840&q=75",
+      "product_url": "https://www.sigma-computer.com/",
+      "product_current_price": 8500.0,
+      "product_original_price": 10500.0,
+      "product_discount_percentage": 19.0,
+      "product_specs": [
+        {
+          "specification_name": "Brand",
+          "specification_value": "Palit"
+        },
+        {
+          "specification_name": "Model",
+          "specification_value": "GTX 1660 SUPER GAMING PRO OC 6G-DDR6"
+        }
+      ],
+      "agent_recommendation_rank": 5,
+      "agent_recommendation_notes": [
+        "High-performance graphics card",
+        "Good price point"
+      ]
+    },
+    {
+      "page_url": "https://www.sigma-computer.com/en/item?id=1223",
+      "product_title": "MSI GeForce GTX 1660 SUPER GAMING X",
+      "product_image_url": "https://www.sigma-computer.com/_next/image?url=http%3A%2F%2Fapi.sigma-computer.com%2Fmedia%2Fd0f7f556-f698-452e-a4cf-21f249a6048c&w=3840&q=75",
+      "product_url": "https://www.sigma-computer.com/",
+      "product_current_price": 5300.0,
+      "product_original_price": 5500.0,
+      "product_discount_percentage": 3.0,
+      "product_specs": [
+        {
+          "specification_name": "Brand",
+          "specification_value": "MSI"
+        },
+        {
+          "specification_name": "Model",
+          "specification_value": "GeForce GTX 1660 SUPER GAMING X"
+        }
+      ],
+      "agent_recommendation_rank": 5,
+      "agent_recommendation_notes": [
+        "High-performance graphics card",
+        "Good price point"
       ]
     }
   ]
