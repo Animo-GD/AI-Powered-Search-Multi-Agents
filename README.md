@@ -57,4 +57,6 @@ python src/app.py
 2. [Tavily API](https://www.tavily.com/)
 3. [ScrapeGraph API](https://scrapegraphai.com/)
 
-
+-------
+# Live Demo
+[HuggingFace Space](https://huggingface.co/spaces/Moaazsoliman/AI_Powered_Products_Search_)
