@@ -35,6 +35,6 @@ It automates product procurement reporting by chaining multiple AI agents that:
 # Example Result
 - After Running The Program, it will take a few minutes to process.
 - You will find your final report in `src/data/finalReport.html`
-- [View report online]([https://Animo-GD/AI-Powered-Search-Multi-Agents/FinalReport.html](https://github.com/Animo-GD/AI-Powered-Search-Multi-Agents/blob/cb3ab65dd7197132c59eef57edc7960aec0e4b9b/FinalReport.html))
+- [View report online](https://github.com/Animo-GD/AI-Powered-Search-Multi-Agents/blob/cb3ab65dd7197132c59eef57edc7960aec0e4b9b/FinalReport.html)
 
 
