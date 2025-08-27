@@ -53,8 +53,8 @@ python -m venv .venv
 python src/app.py
 ```
 ### Insert Your Credential
-1. (Open Router API)[https://openrouter.ai/]
-2. (Tavily API)[https://www.tavily.com/]
-3. (ScrapeGraph API)[https://scrapegraphai.com/]
+1. [Open Router API](https://openrouter.ai/)
+2. [Tavily API](https://www.tavily.com/)
+3. [ScrapeGraph API](https://scrapegraphai.com/)
 
 
