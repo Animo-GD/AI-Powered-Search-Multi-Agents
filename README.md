@@ -1,6 +1,6 @@
 # Overview
 
-This project is a multi-agent system built using CrewAI
+A multi-agent system built using CrewAI
 
 It automates product procurement reporting by chaining multiple AI agents that:
 
@@ -11,3 +11,5 @@ It automates product procurement reporting by chaining multiple AI agents that:
 3. Scrape details from those pages.
 
 4. Generate an HTML procurement report.
+
+!(Digram)[Agents Diagram.png]
