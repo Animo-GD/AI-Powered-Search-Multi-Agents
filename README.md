@@ -20,3 +20,17 @@ It automates product procurement reporting by chaining multiple AI agents that:
 
 ![userInterface](UI-page.png)
 
+-------
+# Inputs
+1. Company Name: The name of that company to include in the final report.
+2. Product Name: The name of the product you want to search.
+3. Websites: Websites to search on it, if empty it will search the whole internet(not Recommended)/
+4. Number of Keywords: Number of keywords that will be used to search the product.
+5. Country Name: The country In which this product is available.
+6. Search Score: Searching score to filter the irrlevant pages.
+7. Language: The language In which you will search.
+8. Top Recommendtion: Best Pages Result With best prices.
+
+--------
+
+
